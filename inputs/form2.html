@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form 22/09</title>
+  </head>
+  <body>
+    <form action="" method="get">
+      <fieldset>
+        <legend>opções</legend>
+
+        <label for="estado">Estado</label>
+        <select name="estados" id="estado">
+            <optgroup label="Região sudeste"></optgroup>
+          <option value="SP">São paulo</option>
+          <option value="RJ">Rio de janeiro</option>
+          <option value="SC">Santa catarina</option>
+          <option value="MG">Minas gerais</option>
+        </optgroup>
+        
+        <optgroup label="Região nordeste">
+            <option value="AL">Alagoas</option>
+          <option value="BA">Bahia</option>
+          <option value="PE">Pernambuco</option>
+          <option value="MA">Maranhão</option>
+          <option value="SE">Sergipe</option>
+        </optgroup>
+        </select>
+        <br />
+
+        <label for="text">Mensagem</label> <br />
+        <textarea name="texto" id="text" rows="10" cols="10"></textarea>
+
+      </fieldset>
+    </form>
+  </body>
+</html>
