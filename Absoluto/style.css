@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+}
+
+#cabecalho {
+  position: absolute;
+  background-color: red;
+  width: 90%;
+  height: 100px;
+  top: 10px;
+  left: 5%;
+  text-align: center;
+}
+
+#navegacao {
+  position: absolute;
+  background-color: blue;
+  width: 90%;
+  height: 50px;
+  top: 110px;
+  left: 5%;
+}
+
+#esquerdo {
+  position: absolute;
+  background-color: green;
+  width: 30%;
+  height: 350px;
+  top: 160px;
+  left: 5%;
+}
+
+#direito {
+  position: absolute;
+  background-color: yellow;
+  width: 60%;
+  height: 350px;
+  top: 160px;
+  left: 35%;
+}
+
+#rodape {
+  position: absolute;
+  background-color: gray;
+  width: 90%;
+  height: 50px;
+  top: 510px;
+  left: 5%;
+  text-align: center;
+}
