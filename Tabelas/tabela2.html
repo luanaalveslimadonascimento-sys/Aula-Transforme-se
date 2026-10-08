@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabela completa</title>
+
+    <style>
+      body {
+        background-color: hsl(197, 78%, 79%);
+        color: #030303;
+
+        table {
+          width: 400px;
+          font-size: 15px;
+        }
+        td {
+          width: 20px;
+        }
+      }
+      table,
+      td {
+        border: 1px solid #000;
+        border-collapse: collapse;
+      }
+      caption {
+        color: hsl(0, 0%, 1%);
+      }
+      .titulo {
+        background-color: hsl(204, 24%, 96%);
+        color: #030303;
+      }
+
+      thead {
+        background-color: hsl(197, 78%, 79%);
+        color: #030303;
+      }
+      tbody {
+        background-color: hsl(197, 78%, 79%);
+        color: #030303;
+      }
+
+      tfoot {
+        background-color: hsl(197, 78%, 79%);
+        color: #030303;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <!-- Título da tabela -->
+      <caption>
+        Titulo da tabela
+      </caption>
+
+      <!-- Cabeçalho da tabela -->
+      <thead>
+        <tr>
+          <th>Mês</th>
+          <th>Serviço</th>
+          <th>Valor</th>
+        </tr>
+      </thead>
+
+      <!-- Corpo da tabela -->
+      <tbody>
+        <tr>
+          <td>Janeiro</td>
+          <td>Consultoria</td>
+          <td>R$ 2000,00</td>
+        </tr>
+
+        <tr>
+          <td rowspan="2">Fevereiro</td>
+          <td>Desenvolvimento</td>
+          <td>R$ 8000,00</td>
+        </tr>
+
+        <tr>
+          <td>Serviço</td>
+          <td>R$ 3000,00</td>
+        </tr>
+
+        <tr>
+          <td>Março</td>
+          <td>Front-end</td>
+          <td>R$ 9000,00</td>
+        </tr>
+      </tbody>
+
+      <!-- Rodapé da tabela -->
+      <tfoot>
+        <tr>
+          <td colspan="2">Total Geral</td>
+          <td>R$ 15000,00</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
