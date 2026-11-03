@@ -1,5 +1,5 @@
 const atividade1 = () => {
-  let alunos = ["Matheus", "Alice", "Giovanni", "Isabelli"];
+  let alunos = ["Ana", "Bruno", "Carlos", "Diana"];
 
   alunos.forEach((nome) => {
     console.log(`Presença confirmada: ${nome}`);
@@ -49,3 +49,4 @@ const atividade5 = () => {
 
   console.log(salariosComBonus);
 };
+s
